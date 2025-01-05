@@ -228,6 +228,8 @@ section {
   font-weight: 600;
   border: none;
   transition: 0.5s;
+  display: inline-flex;
+  align-items: center;
 }
 .triangle {
   position: absolute;

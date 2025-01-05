@@ -1,11 +1,16 @@
 import "./style.css";
+import yogaImg from "../images/yoga.jpg";
+import groupImg from "../images/group.webp";
+import soloImg from "../images/solo.jpg";
+import stretImg from "../images/stret.webp";  
+
 
 ("use strict");
 const height = document.querySelector("#height");
 const weight = document.querySelector("#weight");
 const bmiTriangle = document.querySelector(".bmi-tri");
 
-// Ağırlık input alanına bir event listener ekleniyor
+// Ağırlık input alacnına bir event listener ekleniyor
 weight.addEventListener("input", () => {
   let bmi = weight.value / (height.value / 100) ** 2;
   let percentage;
@@ -40,7 +45,7 @@ const classes = [
   {
     id: 1,
     category: "Yoga",
-    img: "./images/yoga.jpg",
+    img: yogaImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem quis earum officiis quam fugit placeat impedit incidunt amet assumenda laboriosam ipsam quisquam perferendis quibusdam, autem, illo eos cupiditate! Debitis aut beatae alias ullam nobis?",
     time: [
@@ -52,7 +57,7 @@ const classes = [
   {
     id: 2,
     category: "Group",
-    img: "./images/group.webp",
+    img: groupImg,
     description:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
     time: [
@@ -64,7 +69,7 @@ const classes = [
   {
     id: 3,
     category: "Solo",
-    img: "./images/solo.jpg",
+    img: soloImg,
     description:
       "Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
     time: [
@@ -76,7 +81,7 @@ const classes = [
   {
     id: 4,
     category: "Stretching",
-    img: "./images/stret.webp",
+    img: stretImg,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem quis earum officiis quam fugit placeat impedit incidunt amet assumenda laboriosam ipsam quisquam perferendis quibusdam, autem, illo eos cupiditate!",
     time: [
