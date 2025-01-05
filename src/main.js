@@ -40,7 +40,7 @@ const classes = [
   {
     id: 1,
     category: "Yoga",
-    img: "./images/yoga.jpg",
+    img: "./assets/yoga-DxY-5oh2.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem quis earum officiis quam fugit placeat impedit incidunt amet assumenda laboriosam ipsam quisquam perferendis quibusdam, autem, illo eos cupiditate! Debitis aut beatae alias ullam nobis?",
     time: [
